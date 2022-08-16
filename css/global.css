@@ -3,6 +3,7 @@ html, body {
     width: 100%;
     margin: 0;
     font-family: 'Inter', sans-serif;
+  
   }
   
   img {
@@ -10,3 +11,7 @@ html, body {
     height: auto;
     display: block;
   }
+
+  .media-display-button {
+    display:none;
+}

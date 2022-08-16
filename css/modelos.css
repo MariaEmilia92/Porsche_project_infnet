@@ -27,4 +27,37 @@
     top: 135px;
 }
 
+/*MEDIA*/
 
+@media (min-width: 1184px)   {
+.modelos-display-medium {
+    display: none;
+}
+.modelos-display-small {
+    display: none;
+}
+}
+@media (max-width: 1184px)   {
+.container-lg>h1{
+    padding-left: 80px;
+    }
+
+.modelos-display-small {
+    display: none;
+    }
+.modelos-display {
+    display:none;
+    }
+.modelos-display-medium {
+    display: block;
+}
+}
+
+@media (max-width: 767px)  {
+.modelos-display-medium{
+    display: none;
+}
+.modelos-display-small {
+    display: block;
+}
+}

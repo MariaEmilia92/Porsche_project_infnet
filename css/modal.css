@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-    
 .modalsobre p {
     margin-left: 0px;
     text-align: justify;
@@ -66,4 +65,26 @@ padding-bottom: 20px;
 
 .nav--modal a:visited {
     color:rgb(77, 77, 77);
+}
+
+/*MEDIA*/
+
+@media (max-width: 1199px) {
+.modalsobre>picture {
+    padding-top: 50px;
+    padding-left: 10px;
+    size:50%;
+}
+}
+
+@media (max-width: 991px)   {
+.modalsobre {
+    padding-top: 0;
+    display:grid;
+    grid-template-columns: auto;
+    }
+
+.modalsobre>picture {
+    display: none;
+}
 }

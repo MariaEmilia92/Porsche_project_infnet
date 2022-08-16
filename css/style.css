@@ -1,7 +1,9 @@
 @import "global.css";
-@import "medias.css";
 @import "header.css";
+@import "medias.css";
+@import "carousel.css";
 @import "about.css";
 @import "modelos.css";
 @import "modal.css";
 @import "tools.css";
+@import "footer.css";

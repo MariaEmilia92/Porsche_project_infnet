@@ -16,7 +16,7 @@
 }
 .tools img{
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .tools span {
@@ -28,3 +28,13 @@
     padding-top: 45px;
 }
 
+/*MEDIA*/
+@media (max-width: 991px)   {
+.shopping>h1 {
+    padding-top: 80px;
+    padding-left: 80px;
+    }
+.tools img {
+    padding-bottom: 80px;
+}
+}

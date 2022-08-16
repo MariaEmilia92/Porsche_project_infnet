@@ -3,6 +3,10 @@ ul {
     gap: 10px;
 }
 
+.logo {
+    margin-left: 20px;
+}
+
 .collapse {
     margin-left: 30px;
 }
@@ -20,4 +24,23 @@ border-bottom-color: rgb(207, 3, 3);
 
 button {
     gap:20px;
+}
+
+.pad {
+    margin-right: 20px;
+}
+
+.espaco--button {
+    margin-right: 30px;
+}
+
+/*MEDIA*/
+
+@media (max-width: 991px)   {
+    .media-display-first {
+        display:none;
+    }
+    .media-display-button {
+        display: block;
+    }
 }
