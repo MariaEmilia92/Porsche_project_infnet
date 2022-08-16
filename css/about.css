@@ -1,0 +1,27 @@
+.sobre {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    
+}
+
+.sobre picture {
+    padding-left: 60px;
+
+}
+
+.sobre p {
+    text-align: justify;
+    text-indent: 4rem;
+    font-size: 1.15rem;
+}
+.sobre picture img {
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+h1 {
+    padding-bottom: 20px;
+}

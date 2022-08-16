@@ -1,0 +1,23 @@
+ul {
+    font-size: 1.15rem;
+    gap: 10px;
+}
+
+.collapse {
+    margin-left: 30px;
+}
+
+.collapse ul li a{
+    border-bottom: 3px solid transparent;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.collapse ul li a:hover {
+color:rgb(207, 3, 3);
+border-bottom-color: rgb(207, 3, 3);
+} 
+
+button {
+    gap:20px;
+}

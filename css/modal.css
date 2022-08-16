@@ -1,0 +1,69 @@
+.modalsobre {
+    padding-top: 60px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+}
+
+    
+.modalsobre p {
+    margin-left: 0px;
+    text-align: justify;
+    text-indent: 4rem;
+    font-size: 1.15rem;
+    max-width: 400px;
+}
+
+.modalsobre h1{
+    margin-left: 20px;
+}
+
+.detalhes {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.detalhes img {
+    position: relative;
+}
+
+.detalhes span {
+    position: absolute;
+    font-size: 3.5rem;
+    color: #fefefe;
+    top: 460px;
+    padding-left: 30px;
+}
+
+.velocidade {
+    padding: 35px;
+    padding-bottom: 60px;
+    font-size: 1.25rem;
+}
+
+.texto--detalhes p{
+padding-bottom: 20px;
+}
+
+.texto--detalhes {
+    font-size: 1.25rem;
+    padding: 35px;
+    padding-bottom: 50px;
+}
+
+.nav--modal li a{
+    padding: 20px;
+    color:rgb(12, 12, 12);
+}
+
+.nav--modal li a:hover {
+    color:rgb(207, 3, 3);
+    background-color: rgb(241, 241, 241);
+}
+
+.nav--modal a:visited {
+    color:rgb(77, 77, 77);
+}
