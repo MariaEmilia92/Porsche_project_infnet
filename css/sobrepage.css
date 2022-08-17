@@ -1,0 +1,72 @@
+.pagesob p {
+    text-align: justify;
+    text-indent: 4rem ;
+    font-size: 1 rem;
+    padding-right: 20px;
+}
+
+.pagesobDois p {
+    text-align: justify;
+    text-indent: 4rem ;
+    font-size: 1 rem;
+}
+
+.fig64 {
+    padding-top: 50px;
+}
+
+/* MEDIA */
+
+@media (max-width: 1366px) {
+.fig64 {
+        padding-top: 100px;
+    }
+.ferdinand {
+    padding-top: 80px;
+}
+}
+
+@media (max-width: 1199px) {
+.fig64 {
+        padding-top: 180px;
+    }
+.ferdinand {
+    padding-top: 150px;
+}
+}
+
+@media (max-width: 991px) {
+    .ferdinand {
+        display: none;
+    }
+
+    .col-4{
+        display: none;
+    }
+    .col-8 {
+        width: 100% !important;
+    }
+
+#displaybo {
+    display: grid;
+    grid-template-columns: auto;
+}
+.fig64 {
+    padding-top: 20px;
+}
+
+.pagesob {
+    width: 100% !important;
+}
+}
+
+@media  (max-width: 575px) {
+    .fig64 {
+        display: none;
+    }
+
+    .pagesob {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

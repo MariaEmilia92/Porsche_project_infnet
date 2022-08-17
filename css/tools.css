@@ -1,6 +1,5 @@
 .shopping {
-    padding-top: 200px;
-    
+    padding-top: 150px;   
 }
 
 .tools {
@@ -32,11 +31,19 @@
 /*MEDIA*/
 
 @media (max-width: 991px)   {
-.shopping>h1 {
-    padding-top: 80px;
-    padding-left: 80px;
-    }
+.shopping {
+    padding-top: 70px;
+} 
 .tools img {
-    padding-bottom: 80px;
+    margin-bottom: 100px;
+}  
+}
+
+@media (max-width: 575px) {
+.shopping {
+    padding-top: 50px;
+ }   
+.tools img {
+    margin-bottom: 80px;
 }
 }

@@ -35,7 +35,7 @@ h1 {
 .sobre {
     padding-left: 70px;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
     padding-right: 70px;
     display:grid;
     grid-template-columns: auto;
@@ -49,8 +49,8 @@ h1 {
 @media (max-width: 600px) {
 .sobre {
     padding-left: 40px;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
-    padding-right: 40px;
+    padding-right: 20px;
 }
 }
