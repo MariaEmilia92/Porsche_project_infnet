@@ -12,74 +12,121 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     
-    <link rel="icon" href="./img/Porsche-favicon.svg" type="Porsche">
+    <link rel="icon" href="./img/Porsche-favicon.svg" type="image/svg+xml">
     
     <link rel="stylesheet" href="./css/style.css">
     <link href="./libs/animate/animate.min.css" rel="stylesheet">
     <link href="./libs/bootstrap/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-        <header class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a href="./">
-                <img src="img/Porsche_Logo.svg" width="130" class="navbar-brand" >
+<body>        
+  <header class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-light media-display-first">
+  <div class="container-fluid">
+    <a href="./">
+      <img class="logo" src="img/Porsche_Logo.svg" width="130" class="navbar-brand" alt="porchelogo">
+  </a>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#Sobre">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Modelos">Modelos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Shopping">Shopping Tools</a>
+        </li>
+      </ul>
+      <form class="d-grid gap-3 d-md-flex justify-content-md-end">
+          <button class="btn btn-outline-dark" type="button"><i class="fa-solid fa-tag"></i> Shopping</button>
+          <button class="btn btn-outline-dark pad" type="button"><i class="fa-solid fa-location-dot"></i> Porsche Center</button>  
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
+<!-- nav-small -->
+<div class="media-display-button">
+  <div class="navbar bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./">
+      <img class="logo" src="img/Porsche_Logo.svg" width="130" class="navbar-brand" alt="porchelogo"></a>
+    <button class="navbar-toggler espaco--button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Porsche</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Página inicial</a>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Center
             </a>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#Sobre">Sobre</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Modelos">Modelos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Shopping">Shopping Tools</a>
-                  </li>
-                </ul>
-                <form class="d-grid gap-3 d-md-flex justify-content-md-end">
-                    <button class="btn btn-outline-dark" type="button"><i class="fa-solid fa-tag"></i> Shopping</button>
-                    <button class="btn btn-outline-dark" type="button"><i class="fa-solid fa-location-dot"></i> Porsche Center</button>  
-                </form>
-              </div>
-            </div>
-          </nav>
-        </header>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-tag"></i> Shopping</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-location-dot"></i> Porsche Center</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+<!-- sobre-page -->
+<main class="container-fluid">
+  <div class="container text-center">
+    <div class="row row-cols-2">
+      <div class="col"><h1>História</h1>
+      <p></p></div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+</main>
+<!--footer -->
+<footer class="container-fluid">
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+     <h5>Serviços Online</h5>
+     <a href="./"><p>Porsche Club</p></a>
+        </div>
+        <div class="col">
+          <h5>Nos bastidores</h5>
+          <ul>
+            <li><a href="./">Eventos Esportivos</a></li>
+            <li><a href="./">Porsche Experience</a></li>
+            <li><a href="./">Visitar o Museu da Porsche</a></li>
+            <li><a href="./">Rotulagem de Segurança Veicular</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5>Conecte-se com a Porsche</h5>
+          <ul class="icons">
+          <li><a href="https://www.facebook.com/porsche/"><i class="fa-brands fa-square-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/user/Porsche"><i class="fa-brands fa-square-youtube"></i></a></li>
+          <li><a href="https://twitter.com/Porsche"><i class="fa-brands fa-square-twitter"></i></a></li>
+          <li><a href="https://br.pinterest.com/porsche/"><i class="fa-brands fa-square-pinterest"></i></a></li>
+          <li><a href="https://www.instagram.com/porsche/?hl=en"><i class="fa-brands fa-square-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/porsche-ag"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
+</footer>
 
-
-        <footer class="container-fluid">
-            <div class="footer">
-              <div class="container">
-                <div class="row">
-                  <div class="col">
-               <h5>Serviços Online</h5>
-               <a href="./"><p>Porsche Club</p></a>
-                  </div>
-                  <div class="col">
-                    <h5>Nos bastidores</h5>
-                    <ul>
-                      <a href="./"><li>Eventos Esportivos</li></a>
-                      <a href="./"><li>Porsche Experience</li></a>
-                      <a href="./"><li>Visitar o Museu da Porsche</li></a>
-                      <a href="./"><li>Rotulagem de Segurança Veicular</li></a>
-                    </ul>
-                  </div>
-                  <div class="col">
-                    <h5>Conecte-se com a Porsche</h5>
-                    <ul class="icons">
-                    <li><a href="./"><i class="fa-brands fa-square-facebook"></i></a></li>
-                    <li><a href="./"><i class="fa-brands fa-square-youtube"></i></a></li>
-                    <li><a href="./"><i class="fa-brands fa-square-twitter"></i></a></li>
-                    <li><a href="./"><i class="fa-brands fa-square-pinterest"></i></a></li>
-                    <li><a href="./"><i class="fa-brands fa-square-instagram"></i></a></li>
-                    <li><a href="./"><i class="fa-brands fa-linkedin"></i></a></li>
-                  </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-        
-          </footer>
-        </body>
+<script src="./libs/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
 </html>

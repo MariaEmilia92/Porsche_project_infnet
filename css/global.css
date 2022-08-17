@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif !important;
   
   }
   
@@ -14,4 +14,22 @@ html, body {
 
   .media-display-button {
     display:none;
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 3rem !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2,
+h3 {
+  padding-left: 60px;
 }

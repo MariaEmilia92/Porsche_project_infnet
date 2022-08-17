@@ -7,6 +7,13 @@
 .row img:hover {
     cursor: pointer;
 }
+.row-cols-3>.col {
+    padding: 0;
+}
+
+.row-cols-2>.col {
+    padding: 0;
+}
 
 .filtro {
     filter:grayscale(0%);

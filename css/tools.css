@@ -1,7 +1,8 @@
-.shopping h1{
+.shopping {
     padding-top: 200px;
-    padding-bottom: 30px;
+    
 }
+
 .tools {
     height: 100%;
     position: relative;
@@ -16,7 +17,7 @@
 }
 .tools img{
     position: relative;
-    padding-bottom: 200px;
+    margin-bottom: 200px;
 }
 
 .tools span {
@@ -29,6 +30,7 @@
 }
 
 /*MEDIA*/
+
 @media (max-width: 991px)   {
 .shopping>h1 {
     padding-top: 80px;

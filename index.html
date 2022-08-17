@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     
-    <link rel="icon" href="./img/Porsche-favicon.svg" type="Porsche">
+    <link rel="icon" href="./img/Porsche-favicon.svg" type="image/svg+xml">
     
     <link rel="stylesheet" href="./css/style.css">
     <link href="./libs/animate/animate.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
             <nav class="navbar navbar-expand-lg bg-light media-display-first">
             <div class="container-fluid">
               <a href="./">
-                <img class="logo" src="img/Porsche_Logo.svg" width="130" class="navbar-brand" >
+                <img class="logo" src="img/Porsche_Logo.svg" width="130" class="navbar-brand" alt="porchelogo">
             </a>
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -45,12 +45,12 @@
             </div>
           </nav>
         </header>
-
+<!-- nav-small -->
  <div class="media-display-button">
   <div class="navbar bg-light fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="./">
-      <img class="logo" src="img/Porsche_Logo.svg" width="130" class="navbar-brand" ></a>
+      <img class="logo" src="img/Porsche_Logo.svg" width="130" class="navbar-brand" alt="porchelogo"></a>
     <button class="navbar-toggler espaco--button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -86,8 +86,7 @@
  </div>
 </div>
 
-
-
+<!-- slide-carousel -->
         <article id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -99,28 +98,28 @@
               <div class="carousel-item active">
                 <img src="./img/intro/porsche-intro1.webp" class="d-block w-100" alt="0">
                 <div class="carousel-caption d-none d-md-block">
-                  <h1>Moldado pela performance.</h1>
+                  <h5>Moldado pela performance.</h5>
                   <p>Cayenne Turbo GT.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src= "./img/intro/porsche-intro2.webp" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-none d-md-block">
-                  <h1>Conforto além do convencional.</h1>
+                  <h5>Conforto além do convencional.</h5>
                   <p>Taycan 4S.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="./img/intro/porsche-intro3.webp" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-none d-md-block">
-                  <h1>Impulso que nos move.</h1>
+                  <h5>Impulso que nos move.</h5>
                   <p>Panamera Turbo S E-Hybrid.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="./img/intro/porsche-intro4.webp" class="d-block w-100" alt="Slide 3">
                 <div class="carousel-caption d-none d-md-block">
-                  <h1>Paixão desportiva.</h1>
+                  <h5>Paixão desportiva.</h5>
                   <p>911 Carrera.</p>
                 </div>
               </div>
@@ -135,70 +134,75 @@
             </button>
           </article>
 
+<!-- sobre -->
           <article class="container-lg">
           <div class="sobre" id="Sobre"> 
             <div>
             <h1>Sobre</h1>
             <p>A marca alemã Porsche foi fundada em 1931 por Ferdinand Porsche e o seu filho Ferry Porsche. Ferdinand Porsche já era conhecido antes de fundar a Porsche, ele havia trabalhado para outras marcas. Havia também lançado em 1900 o primeiro automóvel híbrido. Em 1934 Ferdinand Porsche, depois de lhe ser solicitado a criação de um automóvel acessível a todos os alemães, criou o Volkswagen Fusca. O Fusca serviu de base mecânica ao Type 64 criado em 1939 e ao Porsche 356 produzido em 1948, sendo este o primeiro Porsche a ser produzido. O Porsche 356 recorria em grande parte às peças utilizadas no Volkswagen Fusca, tais como motorização traseira com refrigeração a ar. Mais tarde o 356 viria a ser totalmente construído a partir de peças Porsche. A utilização de um motor com refrigeração a ar e localização traseira foi desde o início, a principal característica da Porsche. Em 1951 Ferdinand Porsche morre devido a complicações de um enfarte, nesse mesmo ano a Porsche vence a classe nas 24h de Le Mans com o Porsche 356 SL, conseguindo assim notoriedade internacional.</p>
-            <a href="sobre.html"><button type="button" class="btn btn-outline-dark">Saiba mais</button></a>
+            <a href="sobre.html">
+              <button type="button" class="btn btn-outline-dark">Saiba mais</button>
+            </a>
             </div>
             <picture>
-            <img src="./img/Dr._Ferdinand_Porsche.jpg" width="350"  title="Ferdinand Porsche">
+            <img src="./img/Dr._Ferdinand_Porsche.jpg" width="350" title="Ferdinand Porsche" alt="fundador">
         </picture>
          </div>
         </article>
 
-
+<!-- main-modelos  -->
         <main>
             <div class="container-lg" id="Modelos">
-              <h1>Modelos</h1>
+              <h2>Modelos</h2>
             </div>
             <div class= "container-fluid modelos-display">
               <div class="row row-cols-3">
-                <div class="col"><img src="./img/lista/porsche-718.webp" data-bs-toggle="modal" data-bs-target="#porsche-718" class="filtro"></img><span>718</span></div>
-                <div class="col"><img src="./img/lista/porsche-911.webp" class="filtro"> </img></div>
-                <div class="col"><img src="./img/lista/porsche-taycan.webp" class="filtro"> </img></div>
-                <div class="col"><img src="./img/lista/porsche-panamera.jpg" class="filtro"></img></div>
-                <div class="col"><img src="./img/lista/porsche-cayanne.webp" class="filtro"></img></div>
-                <div class="col"><img src="./img/lista/porsche-macan.webp" class="filtro"></img></div>
+                <div class="col"><img src="./img/lista/porsche-718.webp" data-bs-toggle="modal" data-bs-target="#porsche-718" class="filtro" alt="p718"><span>718</span></div>
+                <div class="col"><img src="./img/lista/porsche-911.webp" class="filtro" alt="p911"></div>
+                <div class="col"><img src="./img/lista/porsche-taycan.webp" class="filtro" alt="tay"></div>
+                <div class="col"><img src="./img/lista/porsche-panamera.jpg" class="filtro" alt="pana"></div>
+                <div class="col"><img src="./img/lista/porsche-cayanne.webp" class="filtro" alt="cay"></div>
+                <div class="col"><img src="./img/lista/porsche-macan.webp" class="filtro" alt="mac"></div>
               </div>
             </div>
+        <!-- display-medio -->
             <div class= "container-fluid modelos-display-medium">
               <div class="row row-cols-2">
-                <div class="col"><img src="./img/lista/porsche-718.webp" data-bs-toggle="modal" data-bs-target="#porsche-718" class="filtro"></img><span>718</span></div>
-                <div class="col"><img src="./img/lista/porsche-911.webp" class="filtro"> </img></div>
-                <div class="col"><img src="./img/lista/porsche-taycan.webp" class="filtro"> </img></div>
-                <div class="col"><img src="./img/lista/porsche-panamera.jpg" class="filtro"></img></div>
-                <div class="col"><img src="./img/lista/porsche-cayanne.webp" class="filtro"></img></div>
-                <div class="col"><img src="./img/lista/porsche-macan.webp" class="filtro"></img></div>
+                <div class="col"><img src="./img/lista/porsche-718.webp" data-bs-toggle="modal" data-bs-target="#porsche-718" class="filtro" alt="p718"><span>718</span></div>
+                <div class="col"><img src="./img/lista/porsche-911.webp" class="filtro" alt="p911"></div>
+                <div class="col"><img src="./img/lista/porsche-taycan.webp" class="filtro" alt="tay"></div>
+                <div class="col"><img src="./img/lista/porsche-panamera.jpg" class="filtro" alt="pana"></div>
+                <div class="col"><img src="./img/lista/porsche-cayanne.webp" class="filtro" alt="cay"></div>
+                <div class="col"><img src="./img/lista/porsche-macan.webp" class="filtro" alt="mac"></div>
               </div>
               </div>
+        <!-- display-small -->
               <div class= "container-fluid modelos-display-small">
                 <div class="row row-cols-1">
-                  <div class="col"><img src="./img/lista/porsche-718.webp" data-bs-toggle="modal" data-bs-target="#porsche-718" class="filtro"></img><span>718</span></div>
-                  <div class="col"><img src="./img/lista/porsche-911.webp" class="filtro"> </img></div>
-                  <div class="col"><img src="./img/lista/porsche-taycan.webp" class="filtro"> </img></div>
-                  <div class="col"><img src="./img/lista/porsche-panamera.jpg" class="filtro"></img></div>
-                  <div class="col"><img src="./img/lista/porsche-cayanne.webp" class="filtro"></img></div>
-                  <div class="col"><img src="./img/lista/porsche-macan.webp" class="filtro"></img></div>
+                  <div class="col"><img src="./img/lista/porsche-718.webp" data-bs-toggle="modal" data-bs-target="#porsche-718" class="filtro" alt="p718"><span>718</span></div>
+                  <div class="col"><img src="./img/lista/porsche-911.webp" class="filtro" alt="p911"></div>
+                  <div class="col"><img src="./img/lista/porsche-taycan.webp" class="filtro" alt="tay"></div>
+                  <div class="col"><img src="./img/lista/porsche-panamera.jpg" class="filtro" alt="pana"></div>
+                  <div class="col"><img src="./img/lista/porsche-cayanne.webp" class="filtro" alt="cay"></div>
+                  <div class="col"><img src="./img/lista/porsche-macan.webp" class="filtro" alt="mac"></div>
                 </div>
                 </div>
             </main>
 
-
+<!-- modal -->
             <div class="modal fade" id="porsche-718" tabindex="-1" aria-labelledby="porsche-718" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="porsche-718">718</h5>
+            <h5 class="modal-title" id="porsche718">718</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body container-lg">
             <div class="modalsobre">
-              <div><h1>Sobre o 718.</h1>
+              <div><h4>Sobre o 718.</h4>
                 <p>Os modelos 718 foram construídos para quem vive com esportividade total. Eles são carros esportivos de motor central que combinam o espírito esportivo do lendário Porsche 718 com o carro esportivo do futuro – e levam tudo isso para as ruas do mundo. Com um objetivo: trazer prazer ao dia a dia.</p></div>
                 <picture>
-                <img src="./img/about--porsche/718-about.PNG">
+                <img src="./img/about--porsche/718-about.PNG" alt="718-about">
                 </picture>
           </div>
           <ul class="nav justify-content-center nav--modal">
@@ -215,22 +219,22 @@
               <a class="nav-link" href="./" >+ Saiba mais</a>
             </li>
           </ul>
-                <div class="detalhes"><img src="./img/about--porsche/718-about2.webp"> <span id="Velocidade">Velocidade.</span>
+                <div class="detalhes" id="Velocidade"><img src="./img/about--porsche/718-about2.webp" alt="718-about2"> <span>Velocidade.</span>
                 </div>
                   <div class="container text-center">
                   <div class="row row-cols-3 ">
-                  <div class="col velocidade"><b>220kW/300 cv</b><br> Potência (kW)/ Potência (cv)</div>
-                  <div class="col velocidade"><b>4,9 s</b><br> Aceleração de 0 - 100 km/h</div>
-                  <div class="col velocidade"><b>275 km/h</b><br> Velocidade máxima</div>
+                  <div class="col velocidade"><p><b>220kW/300 cv</b><br> Potência (kW)/ Potência (cv).</p></div>
+                  <div class="col velocidade"><p><b>4,9 s</b><br> Aceleração de 0 - 100 km/h.</p></div>
+                  <div class="col velocidade"><p><b>275 km/h</b><br> Velocidade máxima.</p></div>
                 </div>
                   </div>
-                     <div class="detalhes"><img src="./img/about--porsche/718-about3.webp"> <span id="Design">Design.</span>
+                     <div class="detalhes" id="Design"><img src="./img/about--porsche/718-about3.webp" alt="718-about3"> <span>Design.</span>
                      </div>
          
                      <div class="text-center texto--detalhes"><p>Preciso, sem firulas. Autoconfiante, e sem timidez. Baixo, largo e plano. O design dos modelos 718 é caracterizado por bordas de conotação esportiva e formas bem definidas.</p>
                       </div>
                       
-                      <div class="detalhes"><img src="./img/about--porsche/718-about4.webp"> <span id="Performance">Performance.</span>
+                      <div class="detalhes" id="Performance"><img src="./img/about--porsche/718-about4.webp" alt="718-about4"> <span>Performance.</span>
                       </div>
                       <div class="text-center texto--detalhes"><p>O que torna os modelos 718 tão especiais? O seu desempenho, sua dirigibilidade, seu design, o espaço generoso de seus 2 bagageiros. E acima de tudo: um conceito de motor central que torna tudo isso possível.</p> 
                         <button type="button" class="btn btn-outline-secondary">+ Saiba mais</button></div>                       
@@ -242,26 +246,29 @@
         </div>
             </div>
             </div>
+
+<!-- tools -->
 <section class="container-lg">
   <div class="shopping" id="Shopping">
-    <h1>Shopping Tools</h1>
+    <h3>Shopping Tools</h3>
   </div>
   <div class="container-lg text-center">
     <div class="row">
       <div class="col tools">
-        <img src="./img/comparacao.jpg"> <a href="./"></a>
+        <a href="./"><img src="./img/comparacao.jpg" alt="compara"></a>
       </div>
       <div class="col tools">
-        <img src="./img/porsche-preaview.jpg"> <a href="./"></a>
+        <a href="./"><img src="./img/porsche-preaview.jpg" alt="preaview"></a>
       </div>
       <div class="col tools">
-        <img src="./img/acessorios.jpg"><a href="./"></a>
+        <a href="./"><img src="./img/acessorios.jpg" alt="acessorios"></a>
       </div>
     </div>
   </div>
 
   </section>
 
+<!--footer -->
   <footer class="container-fluid">
     <div class="footer">
       <div class="container">
@@ -273,21 +280,21 @@
           <div class="col">
             <h5>Nos bastidores</h5>
             <ul>
-              <a href="./"><li>Eventos Esportivos</li></a>
-              <a href="./"><li>Porsche Experience</li></a>
-              <a href="./"><li>Visitar o Museu da Porsche</li></a>
-              <a href="./"><li>Rotulagem de Segurança Veicular</li></a>
+              <li><a href="./">Eventos Esportivos</a></li>
+              <li><a href="./">Porsche Experience</a></li>
+              <li><a href="./">Visitar o Museu da Porsche</a></li>
+              <li><a href="./">Rotulagem de Segurança Veicular</a></li>
             </ul>
           </div>
           <div class="col">
             <h5>Conecte-se com a Porsche</h5>
             <ul class="icons">
-            <li><a href="./"><i class="fa-brands fa-square-facebook"></i></a></li>
-            <li><a href="./"><i class="fa-brands fa-square-youtube"></i></a></li>
-            <li><a href="./"><i class="fa-brands fa-square-twitter"></i></a></li>
-            <li><a href="./"><i class="fa-brands fa-square-pinterest"></i></a></li>
-            <li><a href="./"><i class="fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="./"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/porsche/"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/user/Porsche"><i class="fa-brands fa-square-youtube"></i></a></li>
+            <li><a href="https://twitter.com/Porsche"><i class="fa-brands fa-square-twitter"></i></a></li>
+            <li><a href="https://br.pinterest.com/porsche/"><i class="fa-brands fa-square-pinterest"></i></a></li>
+            <li><a href="https://www.instagram.com/porsche/?hl=en"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/porsche-ag"><i class="fa-brands fa-linkedin"></i></a></li>
           </ul>
           </div>
         </div>

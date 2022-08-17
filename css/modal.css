@@ -14,10 +14,6 @@
     max-width: 400px;
 }
 
-.modalsobre h1{
-    margin-left: 20px;
-}
-
 .detalhes {
     height: 100%;
     position: relative;
@@ -37,7 +33,7 @@
     padding-left: 30px;
 }
 
-.velocidade {
+.velocidade>p {
     padding: 35px;
     padding-bottom: 60px;
     font-size: 1.25rem;
@@ -77,7 +73,7 @@ padding-bottom: 20px;
 }
 }
 
-@media (max-width: 991px)   {
+@media (max-width: 991px) {
 .modalsobre {
     padding-top: 0;
     display:grid;
@@ -86,5 +82,20 @@ padding-bottom: 20px;
 
 .modalsobre>picture {
     display: none;
+}
+
+.nav--modal>li {
+    font-size: 0.9rem;
+}
+.detalhes>span {
+    display:none;
+}
+.velocidade>p {
+    font-size: 0.8rem;
+    padding-bottom: 30px;
+}
+.texto--detalhes {
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 }

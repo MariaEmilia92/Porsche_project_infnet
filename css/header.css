@@ -1,3 +1,7 @@
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
 ul {
     font-size: 1.15rem;
     gap: 10px;

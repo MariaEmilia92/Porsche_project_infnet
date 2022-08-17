@@ -4,7 +4,6 @@
     color:#fefefe;
     gap: 10px;
     padding-bottom: 60px;
-    padding-left: 20px;
 }
 
 .footer>.container>.row {
@@ -45,17 +44,8 @@
     font-size: 2rem;
 }
 
-@media (min-width: 3686px) {
-    .footer>.container {
-    margin-right: auto;
-    margin-left: auto;
-    }
-}
-
 @media (max-width: 767px) {
-    .footer>.container {
-        margin-right: 50px;
-        margin-left: 50px;
+    .footer>.container>.row {
+        display:contents;
     }
-
 }
