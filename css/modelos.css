@@ -30,8 +30,19 @@
 }
 
 .col span {
+    color:#fefefe;
+    font-size: 2rem;
     position: absolute;
-    top: 135px;
+    z-index: 99;
+    top:0;
+    margin-left: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 17px;
+    margin-left: 30px;
+    font-weight: bold;
+    background-color: rgba(10,23,55,0.3);
+    border-radius: 30px;
 }
 
 /*MEDIA*/
@@ -57,6 +68,10 @@
     }
 .modelos-display-medium {
     display: block;
+}
+
+.col span {
+    font-size: 1.5rem;
 }
 }
 
