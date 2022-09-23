@@ -1,20 +1,15 @@
-.modal>nav{
-    scroll-behavior:smooth;
-}
 .modalsobre {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     box-sizing: border-box;
+    font-size: 1.25rem;
 }
 
 .modalsobre p {
     margin-left: 0px;
     text-align: justify;
     text-indent: 4rem;
-    font-size: 1.15rem;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .detalhes {
@@ -36,12 +31,6 @@
     padding-left: 30px;
 }
 
-.velocidade>p {
-    padding: 35px;
-    padding-bottom: 60px;
-    font-size: 1.25rem;
-}
-
 .texto--detalhes p{
 padding-bottom: 20px;
 }
@@ -49,26 +38,7 @@ padding-bottom: 20px;
 .texto--detalhes {
     font-size: 1.25rem;
     padding: 35px;
-    padding-bottom: 50px;
-}
-
-.nav--modal li a{
-    padding: 20px;
-    color:rgb(12, 12, 12);
-}
-
-.nav--modal li a:hover {
-    color:rgb(207, 3, 3);
-    background-color: rgb(241, 241, 241);
-}
-
-.nav--modal a:visited {
-    color:rgb(77, 77, 77);
-}
-
-.efeitobut:hover {
-    background-color: rgb(207, 3, 3);
-    border-color: rgb(207, 3, 3);;
+    padding-bottom: 30px;
 }
 
 /*MEDIA*/
@@ -88,20 +58,11 @@ padding-bottom: 20px;
     grid-template-columns: auto;
     }
 
-.modalsobre>picture {
-    display: none;
-}
 
-.nav--modal>li {
-    font-size: 0.9rem;
-}
 .detalhes>span {
     display:none;
 }
-.velocidade>p {
-    font-size: 0.8rem;
-    padding-bottom: 30px;
-}
+
 .texto--detalhes {
     padding-top: 20px;
     padding-bottom: 30px;

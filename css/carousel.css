@@ -4,7 +4,25 @@
 .carousel-inner h5 {
     font-size: 4rem;
 }
+#carouselCatalogo .carousel-item .carousel-image{
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    cursor: pointer;
+}
 
+.placeholder-item{
+    height: 850px;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.carousel-slick {
+    width: 100%;
+}
 /*MEDIA*/
 
 @media (max-width: 1505px){
