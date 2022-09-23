@@ -19,4 +19,4 @@ O projeto JavaScript consiste em dinamizar o site do projeto web inserindo a lin
 Utilizando: slick e jquery v 3.6.0
 
 Branches:
-      AddJavaScript
+      AddJavaScript.
