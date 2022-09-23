@@ -19,9 +19,11 @@ ul {
     border-bottom: 3px solid transparent;
     padding-top: 30px;
     padding-bottom: 30px;
+    transition: 0.3s;
 }
 
 .collapse ul li a:hover {
+    
 color:rgb(207, 3, 3);
 border-bottom-color: rgb(207, 3, 3);
 } 
